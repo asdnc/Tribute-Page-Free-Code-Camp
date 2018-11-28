@@ -1,0 +1,15 @@
+// Top button function will be usable once the user has scrolled 10px from the top of the page
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+// When the user clicks the button, they will be taken back to the top of the page
+function topFunction(){
+  document.body.scrollTop = 0; // code for safri browser
+  document.documentElement.scrollTop = 0; // code for Chrome, Firefox, IE and Opera
+}

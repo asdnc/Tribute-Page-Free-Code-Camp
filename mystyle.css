@@ -71,6 +71,11 @@ img { /* User story 4 */
 #myBtn:hover {
   background-color: blue;
 }
+hr {
+  border-style: dashed;
+  border-width: 1px;
+  color: black;
+}
 footer {
   text-align: center; /* Moves my info to the left */
 }

@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
-	  </script>
-      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!--Google Font import -->
-      <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet"> <!--Google Font import -->
-	  <title>Ada Lovelace Tribute Page</title>
-  </head>
-  <body id="main"> <!-- User story 1 -->
-	  <header>
-		  <link href="mystyle.css" rel="stylesheet" type="text/css">
-	<h1 id="title">A Tribute Page for Ada Lovelace</h1> <!-- User story 2 -->
-    <div id="img-div"> <!-- User story 3 -->
-		<img id="image" src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwODQwOTQ2MTkw/ada-lovelace-20825279-1-402.jpg">
-    <p id="img-caption"><b>Picture of Ada Lovelace</b> (b. 12/10/1815, d. 11/27/1852)</p>
-    </div> <!-- User story 4 and 5 -->
-	<p id="tribute-info">Many people wrongly assume that computer programming was developed in the last century.  In addition, many people assume that the initial code was created by a man.  Women were pioneers in this field!  In 1842 Ada Lovelace wrote the first computer program.</p> <!-- User story 6 -->
-		<p>According the reference page listed below, Ada was both a computer programmer and a mathematician.  Some highlights of her life include:
-      <ul>
-        <li>She was born and died in London, United Kingdom.</li>
-        <li>She was the daughter of the famous poet Lord George Gordon Byron.</li>
-        <li>When she was 17 years old, she met Charles Babbage.  Babbage is cited as the father of the computer.</li>
-        <li>In 1821 Babbage began working on inventing the Difference Engine.  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Babbage_Difference_Engine.jpg/320px-Babbage_Difference_Engine.jpg" alt="picture of the difference engine" class="center">Since Ada spent time with him, she was able to look at this machine and learn from Babbage's work.  Later, Babbage developed plans for the Analytical Machine.  Eventually Ada was asked to translate an article on this machine idea from French to English.  She included many of her own ideas, including the theoretical groundwork on how a code could be written for machines to handle  letters and numbers.  <img src="https://images-na.ssl-images-amazon.com/images/I/81-YGe81WoL.jpg" alt="Image of book on Ada Lovelace" class="center"></li>
-        <li>For her efforts, Ada did not generate much interest during her lifetime.  However, in more recent times, Ada Lovelace is considered to be the first computer programmer.</li>
-      </ul>
-      </p>
-    <hr style="border: 1px dashed black";
-    <p><a href="https://www.biography.com/people/ada-lovelace-20825323" id="tribute-link" target="_blank">Reference</a></p>
-    <br><!-- User story 7 -->
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> <!-- When the user clicks this button, it will take them back to the top of the page -->
-    <a href="https://www.inc.com/magazine/201710/maria-aspan/how-women-once-ruled-computing.html" target="_blank">More information on how women have impacted programming</a>
-    </div>
+<head>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"><!--Google Font import -->
+	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet"><!--Google Font import -->
+	<title>Ada Lovelace Tribute Page</title>
+</head>
+<body id="main">
+	<!-- User story 1 -->
+	<header>
+		<link href="mystyle.css" rel="stylesheet" type="text/css">
+		<h1 id="title">A Tribute Page for Ada Lovelace</h1><!-- User story 2 -->
+		<div id="img-div">
+			<!-- User story 3 -->
+			<img id="image" src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwODQwOTQ2MTkw/ada-lovelace-20825279-1-402.jpg">
+			<p id="img-caption"><b>Picture of Ada Lovelace</b> (b. 12/10/1815, d. 11/27/1852)</p>
+		</div><!-- User story 4 and 5 -->
+		<p id="tribute-info">Many people wrongly assume that computer programming was developed in the last century. In addition, many people assume that the initial code was created by a man. Women were pioneers in this field! In 1842 Ada Lovelace wrote the first computer program.</p><!-- User story 6 -->
+		<p>According the reference page listed below, Ada was both a computer programmer and a mathematician. Some highlights of her life include:</p>
+		<ul>
+			<li>She was born and died in London, United Kingdom.</li>
+			<li>She was the daughter of the famous poet Lord George Gordon Byron.</li>
+			<li>When she was 17 years old, she met Charles Babbage. Babbage is cited as the father of the computer.</li>
+			<li>In 1821 Babbage began working on inventing the Difference Engine. <img alt="picture of the difference engine" class="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Babbage_Difference_Engine.jpg/320px-Babbage_Difference_Engine.jpg">Since Ada spent time with him, she was able to look at this machine and learn from Babbage's work. Later, Babbage developed plans for the Analytical Machine. Eventually Ada was asked to translate an article on this machine idea from French to English. She included many of her own ideas, including the theoretical groundwork on how a code could be written for machines to handle letters and numbers. <img alt="Image of book on Ada Lovelace" class="center" src="https://images-na.ssl-images-amazon.com/images/I/81-YGe81WoL.jpg"></li>
+			<li>For her efforts, Ada did not generate much interest during her lifetime. However, in more recent times, Ada Lovelace is considered to be the first computer programmer.</li>
+		</ul>
+		<p></p>
+		<hr style="border: 1px dashed black">
+		<p><a href="https://www.biography.com/people/ada-lovelace-20825323" id="tribute-link" target="_blank">Reference</a></p><br>
+		<!-- User story 7 -->
+		 <button id="myBtn" onclick="topFunction()" title="Go to top">Top</button> <!-- When the user clicks this button, it will take them back to the top of the page -->
+		 <a href="https://www.inc.com/magazine/201710/maria-aspan/how-women-once-ruled-computing.html" target="_blank">More information on how women have impacted programming</a>
+		<footer>
+			<hr>
+			<p>Coded by <b>Kellie Truesdell</b></p>
+		</footer>
+	</header>
 </body>
-<footer>
-  <hr>
-  <p>Coded by <b>Kellie Truesdell</b></p> 
-</footer> 
 </html>
